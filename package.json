@@ -1,0 +1,25 @@
+{
+  "name": "bookmarklet_page-inspector",
+  "version": "1.0.0",
+  "description": "This is a useful bookmarklet I am using on a daily basis for SEO and web development purposes",
+  "main": "index.js",
+  "scripts": {
+    "build": "bookmarklet src/index.js dist/bookmarklet.js",
+    "watch": "nodemon --watch src/index.js --exec 'npm run build'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zynkd/bookmarklet_page-inspector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zynkd/bookmarklet_page-inspector/issues"
+  },
+  "homepage": "https://github.com/zynkd/bookmarklet_page-inspector#readme",
+  "devDependencies": {
+    "bookmarklet": "^3.0.0",
+    "nodemon": "^3.0.1"
+  }
+}
