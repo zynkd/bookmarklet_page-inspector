@@ -1,5 +1,5 @@
 javascript: (function () {
-  const hColors = ['red', 'white', 'white', 'white'];
+  const hColors = ['white', 'white', 'white', 'white'];
   const bgColors = ['#8B0000', '#C4738F', '#E37E01', '#F9D535'];
 
   function isChildOfHeader(element) {
@@ -104,7 +104,6 @@ javascript: (function () {
       }
     }
   }
-
 
   let formElements = document.getElementsByTagName('form');
   for (let i = 0; i < formElements.length; ++i) {
